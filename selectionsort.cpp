@@ -24,12 +24,14 @@ int main() {
 
     for (int i = 0;i<n-1;i++){
         for(int j = i+1; j<n;j++){
-            if(array[i]>array[j]){
+            if(array[i]>array[j])
+            {
                 t=array[i];
                 array[i]=array[j];
                 array[j]=t;
             }
         }
+        
     }
     cout<<endl;
 
