@@ -15,34 +15,9 @@ class node
 int main()
 {
     node * head;
-    head = NULL;
+    head = new node(4);
 
-
-    int a[]={2,4,6,8,10};
-
-    for(int i = 0;i<5;i++)
-    {
-
-        if(head==NULL)
-        {
-            head =new node(a[i]);
-        }
-        else
-        {
-            node *temp;
-            temp =new node();
-            temp->next=head;
-            head=temp;
-
-        }
-    }
-    while(temp!=NULL)
-    {
-            cout<<temp->data;
-            cout<<temp->next;
-
-    }
-
-
+    cout<<"data">-data<<endl;
+    
 
 }
