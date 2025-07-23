@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel = "stylesheet"href="shubham.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify OTP</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src ="shubham.css"></script>
+    <script src ="shu.css"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Enter OTP</h1>
+        <p>An OTP has been sent (check server console).</p>
+        <form id="otpForm">
+            <input type="text" id="username" hidden> <input type="text" id="otp" placeholder="Enter 6-digit OTP" required maxlength="6">
+            <button type="submit">Verify</button>
+        </form>
+        <p id="message"></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
