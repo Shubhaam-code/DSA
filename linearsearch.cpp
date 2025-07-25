@@ -10,7 +10,7 @@ int main(){
     for(int i= 0;i<5;i++){
         if(a[i]==element){
             flag=1;
-            cout<<"found at position "<<i+1<<endl;
+            cout<<"FOUND AT POSITION :"<<i+1<<endl;
             break;
 
         }

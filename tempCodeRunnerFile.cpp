@@ -18,12 +18,12 @@ int main(){
     int i = 0,j = n-1 ,mid;
 
     int value,flag =0 ;
-    cout<<"ENTER THE VALUE :";
+    cout<<"enter the value :";
     cin>>value;
     while(i<=j){
         mid = (i+j)/2;
         if(a[mid]==value){
-            cout<<"FOUND AT : "<<mid+1<<endl;
+            cout<<"found at "<<mid+1<<endl;
             flag=1;
             break;
         }
