@@ -32,7 +32,7 @@ void merge(int a[],int start,int mid,int end){
         }
     }
     for (int i = 0; i < index; i++) {
-        a[start + i] = temp[i];
+        a[ start+ i] = temp[i];
     }
 
 
