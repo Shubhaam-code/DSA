@@ -31,8 +31,11 @@ void merge(int a[],int start,int mid,int end){
 
         }
     }
-    for (int i = 0; i < index; i++) {
-        a[ start+ i] = temp[i];
+    int pos=0;
+    while(start<=end){
+        a[start]=temp[pos];
+        start++;
+        pos++;
     }
 
 
