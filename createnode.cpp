@@ -18,7 +18,7 @@ class node
 int main(){
   // dyanmic memory allocation
   // pointer banao
-  node *head; // head bss name ha pointer ka or node jo likha uska name pointer point kar raha node ko.
+  node *head; // head bss name ha pointer ka jo static memory ha stack me
   head =new node(4); // now node will create in heap and adress store in head pointer.
   
 
