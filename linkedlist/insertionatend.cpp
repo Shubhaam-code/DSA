@@ -13,20 +13,25 @@ public:
 
 int main() {
 
+    int a[5]={2,4,7,9,10};
+
     node *head;
+    head = NULL;
+    for(int i=0;i<5;i++){
 
     if(head == NULL) {
-        head = new node(10); // Initialize head with a value
+        head = new node(a[i]); // Initialize head with a value
     }
+    else{
 
-    node *tail;
-    tail=new node();
-    tail=head;
+        node *tail=head;
 
-    while(tail->next != NULL) {
+        while(tail->next != NULL) {
         tail = tail->next;
-    }
-    node * temp;
-    temp = new node(10);
-    tail->next = temp;
+        }
+        node * temp;
+        temp = new node(a[i]);
+        tail->next = temp;
+        } 
+     }
 }
