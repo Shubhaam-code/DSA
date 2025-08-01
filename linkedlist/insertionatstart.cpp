@@ -27,4 +27,6 @@ int main(){
         temp->next=head;
         head=temp;
     }
+
+    cout<<head->data;
 }
