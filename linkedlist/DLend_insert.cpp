@@ -16,10 +16,14 @@ class node{
 
 int main(){
    node *head=NULL;
+
+   //linked list is not exist
    if(head==NULL){
     head=new node(1);
    }
+   // linked is exist
    else{
+    node *temp=new node(2);
     node *curr=head;
     while(curr->next!=NULL){
         curr=curr->next;
