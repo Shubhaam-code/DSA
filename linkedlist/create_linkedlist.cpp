@@ -29,10 +29,4 @@ int main() {
         cout<<temp->data<<" ";
         temp=temp->link;
     }
-    
-   
-    
-    
-    
-    
 }
