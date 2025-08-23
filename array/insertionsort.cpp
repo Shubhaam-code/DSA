@@ -19,16 +19,13 @@ int main(){
     cout<<endl;
 
     int i,value,j;
-    for(i=1;i<n;i++){
+    for(i=1;i<n-1;i++){
         value=a[i];
         j=i-1;
 
-        while(value<a[j]){
+        while(value<a[j] && j>=0){
             a[j+1]=a[j];
             j--;
-            if(j==-1){
-                break;
-            }
         }
         a[j+1]=value;
 

@@ -26,9 +26,7 @@ int main() {
         for(int j = i+1; j<n;j++){
             if(array[i]>array[j])
             {
-                t=array[i];
-                array[i]=array[j];
-                array[j]=t;
+                swap(array[i],array[j]);
             }
         }
         
