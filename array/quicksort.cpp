@@ -23,7 +23,9 @@ void quicksort(int arr [],int start ,int end){
     }
     
     int privot=partition(arr ,start,end);
+    // left
     quicksort(arr , start ,privot-1);
+    // right
     quicksort(arr , privot+1 , end);
 }
 
