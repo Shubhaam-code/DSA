@@ -22,8 +22,7 @@ int main(){
         head=new node(28); // it create dynamic object(node) in heap and head store adress of node
     }
     else{
-        node *temp;
-        temp=new node(28);
+        node *temp=new node(28);
         temp->next=head;
         head=temp;
     }
