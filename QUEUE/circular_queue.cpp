@@ -49,11 +49,11 @@ class queue{
             return;
         }
         else if(front==rare){
-            cout<<"PUSHED "<<arr[front]<<" INTO THE QUEUE\n.";
+            cout<<"POPED "<<arr[front]<<" INTO THE QUEUE\n.";
             front=rare=-1;
         }
         else{
-            cout<<"PUSHED "<<arr[front]<<" INTO THE QUEUE.\n";
+            cout<<"POPED "<<arr[front]<<" INTO THE QUEUE.\n";
             front=(front+1)%size;
         }
     }
