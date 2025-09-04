@@ -18,6 +18,6 @@ int main(){
     // TOP
     cout<<s.top()<<endl;
     //EMPTY
-    cout<<s.empty()<<endl;
+    cout<<s.empty()<<endl; // if empty return 1
 
 }
