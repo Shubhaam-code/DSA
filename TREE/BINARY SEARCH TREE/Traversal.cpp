@@ -36,6 +36,17 @@ node* insert(node* root,int target)
 
 };
 
+void In_Order(node* root)
+{
+    if(!root)
+    {
+        return;
+    }
+    In_Order(root->left);
+    cout<<root->data<<" ";
+    In_Order(root->right);
+};
+
 
 int main()
 {
@@ -46,5 +57,6 @@ int main()
     {
         root=insert(root,arr[i]);
     }
+    In_Order(root);
 
 }
