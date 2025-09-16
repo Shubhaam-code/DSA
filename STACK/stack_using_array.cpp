@@ -76,5 +76,10 @@ class stack{
 
 int main(){
     stack S(5);
-    S.push(10);    
+    S.push(10);  
+    S.push(20);
+    S.push(30);
+    S.pop();
+    S.peek();
+    S.getsize();  
 }

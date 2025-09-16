@@ -62,7 +62,7 @@ class queue{
             cout<<"QUEUE EMPTY \n";
         }
         else{
-            cout<<arr[front];
+            cout<<"FRONT ELEMENT "<<arr[front];
         }
     }
 };

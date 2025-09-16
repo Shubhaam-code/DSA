@@ -49,11 +49,11 @@ class queue{
             return;
         }
         else if(front==rare){
-            cout<<"PUSHED "<<arr[front]<<" INTO THE QUEUE\n.";
+            cout<<"POPED "<<arr[front]<<" INTO THE QUEUE\n.";
             front=rare=-1;
         }
         else{
-            cout<<"PUSHED "<<arr[front]<<" INTO THE QUEUE.\n";
+            cout<<"POPED "<<arr[front]<<" INTO THE QUEUE.\n";
             front++;
         }
     }
@@ -62,7 +62,7 @@ class queue{
             cout<<"QUEUE EMPTY \n";
         }
         else{
-            cout<<arr[front];
+            cout<<"FRONT ELEMENT :"<<arr[front];
         }
     }
 };
@@ -70,5 +70,9 @@ class queue{
 int main(){
     queue Q(5);
     Q.push(10);
+    Q.push(30);
+    Q.push(50);
+    Q.pop();
+    Q.IsEmpty();
     Q.start();
 }
